@@ -6,12 +6,13 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{6F5E81BE-9C7E-4E32-B2F5-149D7104F7D2}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>PROJ1___lista_mieszkańców</RootNamespace>
-    <AssemblyName>PROJ1 - lista mieszkańców</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <RootNamespace>PeopleListing</RootNamespace>
+    <AssemblyName>PeopleListing</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -43,9 +44,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Mieszkaniec.cs" />
-    <Compile Include="OperacjeNaPliku.cs" />
-    <Compile Include="PoprawnośćPESELU.cs" />
+    <Compile Include="Person.cs" />
+    <Compile Include="FileOperations.cs" />
+    <Compile Include="CheckPESEL.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
